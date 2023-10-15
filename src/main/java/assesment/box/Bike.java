@@ -5,7 +5,6 @@ import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @DiscriminatorValue("bike")
-@Table(name="bike")
 public class Bike extends Vehicle {
     @ManyToOne
     private City city;
