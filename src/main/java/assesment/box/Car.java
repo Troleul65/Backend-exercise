@@ -14,13 +14,13 @@ public class Car extends Vehicle{
     public boolean getisParked(){
         return isParked;
     }
-    public void setisParked(boolean n_isparked){
-        this.isParked=n_isparked;
+    public void setisParked(boolean newIsParked){
+        this.isParked=newIsParked;
     }
-    public void setParkingFacilityId(String n_parkingfacilityid){
-        this.parkingFacilityId=n_parkingfacilityid;
+    public void setParkingFacilityId(String newParkingFacilityid){
+        this.parkingFacilityId=newParkingFacilityid;
     }
-    public void setCity(City n_city){
-        this.city=n_city;
+    public void setCity(City newCity){
+        this.city=newCity;
     }
 }

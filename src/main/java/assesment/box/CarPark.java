@@ -27,11 +27,10 @@ public class CarPark {
     public Integer getCapacity(){return capacity;}
     public Integer getAvailableCapacity(){return availableCapacity;}
 
-    public void setId(String n_id){ id=n_id;
-    }
-    public void setName(String n_name){ name=n_name;}
-    public void setCity(City n_city){city=n_city;}
-    public void setCapacity(Integer n_capacity){capacity=n_capacity;}
-    public void setAvailableCapacity(Integer n_setcapacity){availableCapacity=n_setcapacity;}
+    public void setId(String newId){ id=newId;}
+    public void setName(String newName){ name=newName;}
+    public void setCity(City newCity){city=newCity;}
+    public void setCapacity(Integer ewCapacity){capacity=ewCapacity;}
+    public void setAvailableCapacity(Integer newSetCapacity){availableCapacity=newSetCapacity;}
 
 }

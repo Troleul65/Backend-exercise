@@ -26,10 +26,10 @@ public class BikeRack {
     public Integer getCapacity(){return capacity;}
     public Integer getAvailableCapacity(){return availableCapacity;}
 
-    public void setId(String n_id){ id=n_id;
+    public void setId(String newId){ this.id=newId;
     }
-    public void setName(String n_name){ name=n_name;}
-    public void setCity(City n_city){city=n_city;}
-    public void setCapacity(Integer n_capacity){capacity=n_capacity;}
-    public void setAvailableCapacity(Integer n_setcapacity){availableCapacity=n_setcapacity;}
+    public void setName(String newName){ this.name=newName;}
+    public void setCity(City newCity){this.city=newCity;}
+    public void setCapacity(Integer newCapacity){capacity=newCapacity;}
+    public void setAvailableCapacity(Integer newSetCapacity){availableCapacity=newSetCapacity;}
 }
